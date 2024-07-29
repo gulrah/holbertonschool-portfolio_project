@@ -1,0 +1,19 @@
+{
+  "name": "holbertonschool-portfolio_project",
+  "version": "1.0.0",
+  "description": "Holbies Bakery is a food-ordering web application focusing on cakes and bakery items. Customers can browse through a variety of products, place orders, and receive deliveries. The backend is powered by Django Framework, Python, while the frontend uses HTML, CSS, and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.0.0"
+  }
+}
